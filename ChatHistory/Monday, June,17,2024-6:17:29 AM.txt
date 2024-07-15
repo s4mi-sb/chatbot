@@ -1,0 +1,26 @@
+User: how to center a div in html
+Bot: To center a div in HTML, you can use the following CSS styles:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.center {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="center">
+  <p>This is a centered div.</p>
+</div>
+
+</body>
+</html>
+```
+
+In this example, the CSS class "center" is applied to the div element, which uses the "text-align: center;" property to center the content of the div horizontally. You can also use other methods like using flexbox or positioning to center a div in HTML.
+User: exit
+Bot: Thanks for using our service. If you have any more questions in the future, feel free to ask. Goodbye!

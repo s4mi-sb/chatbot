@@ -1,0 +1,27 @@
+User: Hello chatgpt
+Bot: Hello! How can I assist you today?
+User: How to write a hello world in python, javascript, and java?
+Bot: Sure! Here are examples of a "Hello World" program in Python, JavaScript, and Java:
+
+Python:
+```python
+print("Hello, World!")
+```
+
+JavaScript:
+```javascript
+console.log("Hello, World!");
+```
+
+Java:
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+These simple programs will output "Hello, World!" to the console when executed.
+User: exit
+Bot: If you have any more questions or need assistance in the future, feel free to come back. Have a great day! Goodbye!

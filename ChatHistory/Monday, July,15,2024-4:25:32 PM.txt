@@ -1,0 +1,20 @@
+User: Hey
+Bot: Hello! How can I assist you today?
+User: Write me a hello world in swift and rust
+Bot: Sure! Here is a simple "Hello, World!" program in Swift:
+
+```swift
+print("Hello, World!")
+```
+
+And here is the same program in Rust:
+
+```rust
+fn main() {
+    println!("Hello, World!");
+}
+```
+
+Both programs will output "Hello, World!" when executed. Let me know if you have any more questions or need further assistance!
+User: exit
+Bot: Goodbye! Have a great day!

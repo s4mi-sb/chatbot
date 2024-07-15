@@ -1,0 +1,33 @@
+User: how to solve anagram in javascript and python
+Bot: Here are solutions to solve an anagram in JavaScript and Python:
+
+JavaScript:
+
+```javascript
+function isAnagram(str1, str2) {
+    let sortedStr1 = str1.toLowerCase().split('').sort().join('');
+    let sortedStr2 = str2.toLowerCase().split('').sort().join('');
+    
+    return sortedStr1 === sortedStr2;
+}
+
+console.log(isAnagram("listen", "silent"));  // true
+console.log(isAnagram("hello", "world"));    // false
+```
+
+Python:
+
+```python
+def is_anagram(str1, str2):
+    sorted_str1 = ''.join(sorted(str1.lower()))
+    sorted_str2 = ''.join(sorted(str2.lower()))
+    
+    return sorted_str1 == sorted_str2
+
+print(is_anagram("listen", "silent"))   # True
+print(is_anagram("hello", "world"))     # False
+```
+
+These functions will return `true` if the two input strings are anagrams of each other, and `false` otherwise.
+User: exit
+Bot: If you have any more questions in the future, feel free to ask. Have a great day! Goodbye!
