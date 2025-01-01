@@ -1,1 +1,2 @@
 This a terminal based chatbot that uses OpenAPI's 3.5 turbo model. It has the ability to save and log all conversations between you and the chatbot. In addition, it has a functionality to save code snippets provided by the Bot. This allows developers to retrieve code examples within the chat interface for future reference. Moreover, they can use it on their terminal when ChatGPT is at capacity.
+To be able to use this on your terminal, get an api key from OPENAI, install all dependencies (_npm i_), and then run the program by inputting: _Node index.js_.
